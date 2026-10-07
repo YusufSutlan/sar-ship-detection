@@ -1,0 +1,9 @@
+[project]
+name = "sar-ship-detection"
+version = "0.1.0"
+description = "CFAR ship detection in synthetic SAR imagery: calibration, coastlines and convoys"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
